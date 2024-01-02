@@ -1,0 +1,23 @@
+* [33mcommit 0f2b1c7c07abac2b607955ae51a24a29bc6aa2eb[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/dev[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mdev[m[33m)[m
+[31m|[m Author: Leandro Luiz <82337128+LeandroLuiz02@users.noreply.github.com>
+[31m|[m Date:   Tue Jan 2 18:50:13 2024 -0300
+[31m|[m 
+[31m|[m     refactor: remove TODO comments
+[31m|[m 
+* [33mcommit 51a8d137ded07bee0e55f15e251cd77c69875616[m
+[31m|[m Author: Leandro Luiz <82337128+LeandroLuiz02@users.noreply.github.com>
+[31m|[m Date:   Tue Jan 2 18:44:03 2024 -0300
+[31m|[m 
+[31m|[m     feat: implementes RemoverVeiculo method
+[31m|[m 
+* [33mcommit 35d18a7d2e6481488c812e20478b0ec807bd39d4[m
+[31m|[m Author: Leandro Luiz <82337128+LeandroLuiz02@users.noreply.github.com>
+[31m|[m Date:   Tue Jan 2 18:30:00 2024 -0300
+[31m|[m 
+[31m|[m     feat: implementes AdicionarVeiculo and ListarVeiculos methods
+[31m|[m 
+* [33mcommit af631842402b7210d11d91582c4b9744fd18b499[m
+  Author: Leonardo Buta <leonardo.lbuta@gmail.com>
+  Date:   Sun Apr 3 17:13:51 2022 -0300
+  
+      Commit modelo desafio de projeto
