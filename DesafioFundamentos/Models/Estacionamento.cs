@@ -1,3 +1,5 @@
+using DesafioFundamentos.Tools;
+
 namespace DesafioFundamentos.Models
 {
     public class Estacionamento
@@ -17,7 +19,18 @@ namespace DesafioFundamentos.Models
             // pede ao usuário pela placa a ser registrada
             Console.WriteLine("Digite a placa do veículo para estacionar:");
             string placa = Console.ReadLine();
-            veiculos.Add(placa);
+
+            // cria ferramenta para validar formato da placa inserida
+            ValidadorDePlaca validador = new ValidadorDePlaca();
+            if (validador.Valida(placa))
+            {
+                veiculos.Add(placa);
+                Console.WriteLine($"Veículo de placa {placa} inserido com sucesso!");
+            }
+            else 
+            {
+                Console.WriteLine($"A placa inserida {placa} possui formato inválido");
+            }
         }
 
         public void RemoverVeiculo()
